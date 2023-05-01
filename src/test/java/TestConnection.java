@@ -19,7 +19,7 @@ public class TestConnection {
     final FileController fileController;
     public TestConnection(){
         fileController
-                = new FileController("testdata/FiverrProfilesNames.txt");
+                = new FileController("src/test/java/testdata/FiverrProfilesNames.txt");
     }
 
 
