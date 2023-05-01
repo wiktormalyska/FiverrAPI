@@ -2,12 +2,10 @@ package org.wiktormalyska.fiverraccount;
 
 
 import lombok.Getter;
+import org.wiktormalyska.fiverraccount.connection.FiverrConnection;
 import org.wiktormalyska.fiverraccount.data.AccountData;
 
-import java.util.logging.Logger;
-
 public class FiverrAccount {
-    public static final Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
     //Setup
     @Getter
@@ -19,7 +17,7 @@ public class FiverrAccount {
         this.username = username;
         FiverrConnection connection = new FiverrConnection(username);
 
-        accountData = new AccountData(username, connection);
+        accountData = new AccountData(connection);
     }
 
 }

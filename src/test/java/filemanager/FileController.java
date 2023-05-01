@@ -1,4 +1,4 @@
-package FileManager;
+package filemanager;
 
 import lombok.SneakyThrows;
 import org.wiktormalyska.fiverraccount.FiverrAccount;

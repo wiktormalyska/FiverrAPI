@@ -1,5 +1,10 @@
 package org.wiktormalyska.fiverraccount.data.type;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
 public class Rating {
     private double overallRatingScore;
     private double sellerCommunication;
