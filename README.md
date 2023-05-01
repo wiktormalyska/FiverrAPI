@@ -14,7 +14,8 @@
 ### Why taking data takes so long?
 - Fiverr has a lot of security measures to prevent web scraping, so it takes a lot of time to get the data
 - Scraper tries over 500+ proxies to get the data, if one is not working, it tries another one
+### How to use it?
+- Check out Javadocs: 
 
-# Project is still in progress...
 - #### If you have any suggestion, feel free to open an issue or pull request
 - #### Do you have some working proxies? Feel free to open a pull request with them

@@ -15,15 +15,24 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 
+/**
+ * This class represents a Test Connection.
+ */
 public class TestConnection {
     final FileController fileController;
+
+    /**
+     * Constructor for TestConnection.
+     */
     public TestConnection(){
         fileController
                 = new FileController("src/test/java/testdata/FiverrProfilesNames.txt");
     }
 
 
-
+    /**
+     *  Test reading Full Name from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test reading Full Name from Fiverr Profiles")
     public void testFullName() {
@@ -32,6 +41,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading if Online from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test if Online from Fiverr Profiles")
     public void testOnline() {
@@ -42,6 +54,10 @@ public class TestConnection {
         }
     }
 
+
+    /**
+     * Test reading Short Description from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test reading Short Description from Fiverr Profiles")
     public void testShortDescription() {
@@ -50,6 +66,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Long Description from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test reading Long Description from Fiverr Profiles")
     public void testLongDescription() {
@@ -58,6 +77,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Number of Reviews from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Number of Reviews from Fiverr Profiles")
     public void testNumberOfReviews() {
@@ -66,6 +88,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Location from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Location from Fiverr Profiles")
     public void testLocation() {
@@ -74,6 +99,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Member since from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Member Since from Fiverr Profiles")
     public void testMemberSince() {
@@ -82,6 +110,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Average response time from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Average Response Time from Fiverr Profiles")
     public void testAverageResponseTime() {
@@ -89,7 +120,10 @@ public class TestConnection {
             assertNotNull(account.getAccountData().getAverageResponseTime());
         }
     }
-    
+
+    /**
+     * Test reading Last delivery from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Last delivery from Fiverr Profiles")
     public void testLastDelivery() {
@@ -98,6 +132,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Languages from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Languages from Fiverr Profiles")
     public void testLanguages() {
@@ -112,6 +149,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Linked Accounts from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Linked Accounts from Fiverr Profiles")
     public void testLinkedAccounts(){
@@ -122,6 +162,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Skills from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Skills from Fiverr Profiles")
     public void testSkills(){
@@ -132,6 +175,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Profile picture from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Profile Picture from Fiverr Profiles")
     public void testProfilePicture(){
@@ -140,6 +186,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Profile Level from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Profile Level from Fiverr Profiles")
     public void testProfileLevel(){
@@ -148,6 +197,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Gigs from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Gigs from Fiverr Profiles")
     public void  testGigs(){
@@ -165,6 +217,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Rating from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Rating from Fiverr Profiles")
     public void testRating(){
@@ -183,6 +238,9 @@ public class TestConnection {
         }
     }
 
+    /**
+     * Test reading Reviews from Fiverr Profiles.
+     */
     @Test
     @DisplayName("Test Reviews from Fiverr Profiles")
     public void testReviews(){
