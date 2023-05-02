@@ -9,8 +9,6 @@
 - [x] [JSoup](https://jsoup.org/)
 - [x] [JUnit](https://junit.org/junit5/)
 - [x] [Lombok](https://projectlombok.org/)
-### Why package name is so long?
-- GitHub actions has some weird kind of bug, where you cannot deploy a package with the same artifact name as someone's package
 ### Why taking data takes so long?
 - Fiverr has a lot of security measures to prevent web scraping, so it takes a lot of time to get the data
 - Scraper tries over 500+ proxies to get the data, if one is not working, it tries another one
